@@ -1,0 +1,19 @@
+
+Anda juga bisa belajar bagaimana mengganti style dari chart yang dibuat 
+
+- Bar 
+- Line
+- Area
+
+
+NB : Lihat di view bagian JS nya
+
+<script>
+        Morris.Area({   				// Ganti Areanya dengan Bar atau Line
+          element: 'graph',
+          data: <?php echo $data;?>,
+          xkey: 'year',
+          ykeys: ['purchase', 'sale', 'profit'],
+          labels: ['Purchase', 'Sale', 'Profit']
+        });
+ </script>
